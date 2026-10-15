@@ -1,18 +1,8 @@
-// Swift Conditional Statements
-
-// MARK: - if statement
-
 let age = 21
 
 if age >= 18 {
     print("You are eligible")
 }
-
-/*
-Output:
-
-You are eligible
-*/
 
 let minorAge = 16
 
@@ -22,25 +12,11 @@ if minorAge >= 18 {
 
 print("Program ended")
 
-/*
-Output:
-
-Program ended
-*/
-
-// MARK: - if-else statement
-
 if minorAge >= 18 {
     print("Adult")
 } else {
     print("Minor")
 }
-
-/*
-Output:
-
-Minor
-*/
 
 let isLoggedIn = false
 
@@ -49,14 +25,6 @@ if isLoggedIn {
 } else {
     print("Please log in")
 }
-
-/*
-Output:
-
-Please log in
-*/
-
-// MARK: - if-else if-else statement
 
 let marks = 82
 
@@ -70,14 +38,6 @@ if marks >= 90 {
     print("Fail")
 }
 
-/*
-Output:
-
-Grade B
-*/
-
-// MARK: - Nested if statements
-
 let userLoggedIn = true
 let isPremium = true
 
@@ -89,19 +49,9 @@ if userLoggedIn {
     } else {
         print("Free account")
     }
-
 } else {
     print("Please log in")
 }
-
-/*
-Output:
-
-Login successful
-Premium features unlocked
-*/
-
-// MARK: - Example: Password Validation
 
 let password = "swift123"
 
@@ -112,9 +62,3 @@ if password.isEmpty {
 } else {
     print("Password accepted")
 }
-
-/*
-Output:
-
-Password accepted
-*/
